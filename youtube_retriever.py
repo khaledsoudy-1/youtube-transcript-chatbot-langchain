@@ -31,7 +31,6 @@ def create_vector_store(split_transcript, api_key) -> FAISS:
 
 def create_retriever_chain(vector_store, model):
     retriever = vector_store.as_retriever(search_kwargs={"k":4})
-
     prompt = ChatPromptTemplate.from_messages([
         ("system", "You are a helpful AI assistant that answer questions about YouTube Videos based on the video's transcript."),
         ("human", """Answer the following question: {input}
