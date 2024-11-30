@@ -3,6 +3,15 @@
 ## 📖 Description
 A powerful Streamlit web application that leverages OpenAI's language models and LangChain to extract insights directly from YouTube video transcripts. This chatbot allows users to ask questions about the content of any YouTube video, providing detailed, context-aware responses based on the video's transcript.
 
+
+---
+
+## 🌐 Live Demo
+Check out the live app here: [YouTube Transcript Chatbot](https://youtube-transcript-chatbot-langchain-256oa2kv437oq6xpaqsfs3.streamlit.app/) 🚀
+
+---
+
+
 ## ✨ Features
 - **Intelligent Transcript Analysis**: Uses advanced AI to extract and understand video content
 - **Interactive Web Interface**: Built with Streamlit for a user-friendly experience
