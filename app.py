@@ -34,6 +34,11 @@ if st.button("🚀 Get Answer"):
                 # Display the response
                 st.success("Answer:")
                 st.write(response)
+
+            except ValueError as ve:
+                st.error(f"Value Error: {ve}")
+            except KeyError as ke:
+                st.error(f"Key Error: {ke}")
             except Exception as e:
                 st.error(f"An error occurred: {e}")
 
