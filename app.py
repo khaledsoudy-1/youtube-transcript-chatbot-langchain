@@ -36,3 +36,9 @@ if st.button("🚀 Get Answer"):
                 st.write(response)
             except Exception as e:
                 st.error(f"An error occurred: {e}")
+
+# App Footer 
+st.markdown("""
+---
+Made with ❤️ by [Khaled Soudy](https://github.com/khaledsoudy-1)
+""")
